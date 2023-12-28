@@ -128,9 +128,7 @@ async def start(event):
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
          [Button.inline('༺ Super Number #1 سوبر ༻', 'button0')]
         ]
-        await bot.send_message(chat, '''**──╮╭─
-╭─╯│┈
-╰──╰─**''', buttons=buttons)
+        await bot.send_message(chat, '''**سـورس تـيـمر 🥇**''', buttons=buttons)
 
 
 @bot.on(events.CallbackQuery(pattern='da3mkom'))
@@ -140,9 +138,7 @@ async def back(event):
             [Button.inline('تجميع', 'co36llec57t'), Button.inline('تحويل', 'tr46nsf6er')],
             [Button.inline('كود هدية', 'gf4cobe'), Button.inline('هدية يومية', 'g7aif4')]
         ]
-        await event.edit("""**──╮╭─
-╭─╯│┈
-╰──╰─**""", buttons=buttons)
+        await event.edit("""**سـورس تيــمر 👾**""", buttons=buttons)
 
 @bot.on(events.CallbackQuery(pattern='back'))
 async def back(event):
@@ -165,9 +161,7 @@ async def back(event):
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
          [Button.inline('༺ Super Number #1 سوبر༻', 'button0')]
         ]
-        await event.edit("""**──╮╭─
-╭─╯│┈
-╰──╰─**""", buttons=buttons)
+        await event.edit("""**ســورس تيـمـر 👾**""", buttons=buttons)
 
 
 
