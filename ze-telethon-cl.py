@@ -48,9 +48,9 @@ bot = TelegramClient('bot', api_id=Config.APP_ID, api_hash=Config.API_HASH).star
 
 #------------------ defult vars ---------------------# 
 
-DEVELOPER_ID = 44295747
-OWNER_ID = 44295747
-developer_id = 44295747
+DEVELOPER_ID = 6968679764
+OWNER_ID = 6968679764
+developer_id = 6968679764
 days_left = 28
 run = False
 datee = datetime.now()
@@ -126,9 +126,9 @@ async def start(event):
         [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
         [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
-         [Button.inline('༺ Super Number #1 سوبر ༻', 'button0')]
+         [Button.inline('سورس حقير', '@Shwajk')]
         ]
-        await bot.send_message(chat, '''**سـورس تـيـمر 🥇**''', buttons=buttons)
+        await bot.send_message(chat, '''**سـورس حقير **''', buttons=buttons)
 
 
 @bot.on(events.CallbackQuery(pattern='da3mkom'))
@@ -138,7 +138,7 @@ async def back(event):
             [Button.inline('تجميع', 'co36llec57t'), Button.inline('تحويل', 'tr46nsf6er')],
             [Button.inline('كود هدية', 'gf4cobe'), Button.inline('هدية يومية', 'g7aif4')]
         ]
-        await event.edit("""**سـورس تيــمر 👾**""", buttons=buttons)
+        await event.edit("""**سـورس حقير 👾**""", buttons=buttons)
 
 @bot.on(events.CallbackQuery(pattern='back'))
 async def back(event):
@@ -161,7 +161,7 @@ async def back(event):
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
          [Button.inline('༺ Super Number #1 سوبر༻', 'button0')]
         ]
-        await event.edit("""**ســورس تيـمـر 👾**""", buttons=buttons)
+        await event.edit("""**ســورس حقير 👾**""", buttons=buttons)
 
 
 
