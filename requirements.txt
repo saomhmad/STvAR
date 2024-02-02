@@ -1,5 +1,0 @@
-pyfiglet
-requests
-asyncio
-datetime
-telethon
